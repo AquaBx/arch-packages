@@ -18,7 +18,7 @@ backup=()
 options=()
 install=
 changelog=
-source=('git+https://github.com/andersson/tqftpserv.git')
+source=('git+https://github.com/andersson/tqftpserv.git#commit=3a10a7dd6fffb70a158582557e274018a7f25294')
 noextract=()
 md5sums=('SKIP')
 validpgpkeys=()
