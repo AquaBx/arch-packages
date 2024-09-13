@@ -8,7 +8,7 @@ url="https://github.com/andersson/qrtr"
 license=('BSD')
 groups=()
 #depends=('libconfig')
-makedepends=('git')
+makedepends=('git','meson')
 checkdepends=()
 optdepends=()
 provides=()
@@ -18,7 +18,7 @@ backup=()
 options=()
 install=
 changelog=
-source=('git+https://github.com/andersson/qrtr.git#commit=20d1f78be8345f024a217eea9201192cd20d6a7f')
+source=('git+https://github.com/andersson/qrtr.git')
 noextract=()
 md5sums=('SKIP')
 validpgpkeys=()
