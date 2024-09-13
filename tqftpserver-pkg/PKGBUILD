@@ -7,7 +7,7 @@ arch=('armv7h' 'aarch64')
 url="https://github.com/andersson/tqftpserv"
 license=('BSD')
 groups=()
-makedepends=('git' 'qmic')
+makedepends=('git' 'qmic','meson')
 checkdepends=()
 optdepends=()
 depends=('qrtr')
@@ -18,7 +18,7 @@ backup=()
 options=()
 install=
 changelog=
-source=('git+https://github.com/andersson/tqftpserv.git#commit=3a10a7dd6fffb70a158582557e274018a7f25294')
+source=('git+https://github.com/andersson/tqftpserv.git')
 noextract=()
 md5sums=('SKIP')
 validpgpkeys=()
